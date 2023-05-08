@@ -1,0 +1,43 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    color: whitesmoke;
+    font-family: 'Poppins', sans-serif;
+    
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.config{
+    display: flex;
+    align-items: center;
+
+    flex-direction: column;
+    width: 80px;
+    
+}
+.caixa{
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-right: 20px;
+    max-width: 400px;
+    min-width: 100px;
+    min-height: 300px;
+    max-height: 900px;
+}
+.icon{
+    margin-top: 8px;
+    cursor: pointer;
+}
+
+a{
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+a:hover{
+
+}
